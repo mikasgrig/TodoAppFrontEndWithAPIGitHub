@@ -1,0 +1,56 @@
+
+table {
+    width:100%;
+    margin: 30px auto;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+    text-align: center;
+  }
+  #t01 tr:nth-child(even) {
+    background-color: #eee;
+  }
+  #t01 tr:nth-child(odd) {
+   background-color: #fff;
+  }
+  #t01 th {
+    background-color: black;
+    color: white;
+  }
+thead {
+  background-color: #010713;
+  color: #fff;
+}
+.h2m, .h2m2 {
+  color: red;
+  height: 20px;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.manobutton {
+  width: 15%;
+  height: 35px;
+  margin-bottom: 10px;
+}
+.rowma {
+  align-items: flex-end;
+}
+.mano {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.container {
+  margin-top: 30px;
+}
+.geltona {
+  background-color: yellow;
+}
